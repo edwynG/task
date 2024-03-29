@@ -1,0 +1,29 @@
+.task-list{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-container {
+  background-color: burlywood;
+  padding: 6px;
+  padding-left: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-family: inherit;
+  flex-grow: 1;
+  flex-basis: 25%;
+  max-width: 260px;
+  min-width: 260px;
+  cursor: pointer;
+}
+
+.task-title {
+  font-size: 22px;
+  font-family: inherit;
+}
+.task-description {
+  font-size: smaller;
+  font-family: inherit;
+}
